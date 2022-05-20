@@ -28,7 +28,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
-
+//good luck!
     private Database db;
     private ListView lvCongViec;
     private List<CongViec> arrCongViec;
