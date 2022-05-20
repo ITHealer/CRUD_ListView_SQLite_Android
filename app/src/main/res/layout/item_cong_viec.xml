@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="10"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_ten"
+        android:layout_weight="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên công việc"
+        android:textSize="26dp"
+        android:textColor="#21211f"
+        />
+
+    <ImageView
+        android:id="@+id/iv_del"
+        android:layout_weight="1"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:src="@drawable/del"/>
+
+    <ImageView
+        android:id="@+id/iv_edit"
+        android:layout_weight="1"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:src="@drawable/add"/>
+
+</LinearLayout>
